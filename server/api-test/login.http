@@ -1,0 +1,12 @@
+POST http://localhost:8888/login
+content-type: application/json
+
+{
+<<<<<<< HEAD:server/api-test/login.http
+    "email":"harish@example.com",
+    "password":"harish"
+=======
+    "email":"test@example.com",
+    "password":"test"
+>>>>>>> main:api-test/login.http
+}

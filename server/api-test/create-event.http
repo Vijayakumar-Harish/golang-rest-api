@@ -1,0 +1,10 @@
+POST http://localhost:8888/events
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcmlzaEBleGFtcGxlLmNvbSIsImV4cCI6MTc1OTkyNTg2OSwidXNlcklkIjoyfQ.9H2VSKIyHjbqSTAGlgvRuWm913I0oFNj81fIBx7H4gs
+
+{
+    "name":"google meet",
+    "description":"bangalore",
+    "location":"A test location",
+    "dateTime":"2025-01-01T15:30:00.000Z"
+}

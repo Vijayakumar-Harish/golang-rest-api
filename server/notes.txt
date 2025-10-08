@@ -1,6 +1,8 @@
 gin -> go get -u github.com/gin-gonic/gin
 
-
+db -> go get github.com/mattn/go-sqlite3
+bcrypt -> golang.org/x/crypto
+jwt -> go get -u github.com/golang-jwt/jwt/v5
 Instead of writing this code (in the next lecture):
 
 var DB *sql.DB
