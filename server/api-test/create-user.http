@@ -2,6 +2,11 @@ POST http://localhost:8888/signup
 content-type: application/json
 
 {
+<<<<<<< HEAD:server/api-test/create-user.http
     "email":"harish@example.com",
     "password":"harish"
+=======
+    "email":"test@example.com",
+    "password":"test"
+>>>>>>> main:api-test/create-user.http
 }
