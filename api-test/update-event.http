@@ -1,0 +1,9 @@
+PUT http://localhost:8888/events/2
+content-type: application/json
+
+{
+    "name":"Google meetup",
+    "description":"golang machine learning project",
+    "location":"bangalore",
+    "dateTime":"2025-01-01T15:30:00.000Z"
+}
